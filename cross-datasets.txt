@@ -1,0 +1,15 @@
+Query 1: Join by Race:
+	This query will look at proportionality by comparing the percentage of race population with the percentage of awards by race. We will use ParDo to transform the integers of the Hispanic table (Values are 1 and 2) to values 100 and 200. We will also use ParDo to group the integers 6-26 in the EncryptionCode1 Table into one value (this will be our Multiracial population).Then we will use Flatten to merge the Hispanic table with the EncryptionCode1 table (the rest of the races).
+Transforms: transform_Formatted_PopData_single.py transform_Formatted_HISPANIC_single.py transform_Formatted_OscarDemo.py
+
+Query 2: Join by Race:
+	This query will compare the percentage of race population with the percentage of the actor/actress's race population by award type. We will use ParDo to transform the integers of the Hispanic table (Values are 1 and 2) to values 100 and 200. We will also use ParDo to group the integers 6-26 in the EncryptionCode1 Table into one value (this will be our Multiracial population).Then we will use Flatten to merge the Hispanic table with the EncryptionCode1 table (the rest of the races). We will also use CoGroupByKey to merge the actor/actress's award type with race.
+Transforms: transform_Formatted_PopData_single.py transform_Formatted_HISPANIC_single.py transform_Formatted_OscarDemo.py
+
+Query 3: Join by Race:
+	This query will compare the percentage of race population with the percentage of actor/actress's awards by race from year 2000 and up (2000-2010). We will use ParDo to transform the integers of the Hispanic table (Values are 1 and 2) to values 100 and 200. We will also use ParDo to group the integers 6-26 in the EncryptionCode1 Table into one value (this will be our Multiracial population).Then we will use Flatten to merge the Hispanic table with the EncryptionCode1 table (the rest of the races). We will also use CoGroupByKey to merge the actor/actress's award type with race.
+Transforms: transform_Formatted_PopData_single.py transform_Formatted_HISPANIC_single.py transform_Formatted_OscarDemo.py
+
+Query 4: Join by Race:
+	This query will compare the percentage of race population in the US with the percentage of race population in each award type from 2000 & up (2000-2010). We will use ParDo to transform the integers of the Hispanic table (Values are 1 and 2) to values 100 and 200. We will also use ParDo to group the integers 6-26 in the EncryptionCode1 Table into one value (this will be our Multiracial population).Then we will use Flatten to merge the Hispanic table with the EncryptionCode1 table (the rest of the races). We will also use CoGroupByKey to merge the actor/actress's award type with race.
+Transforms: 

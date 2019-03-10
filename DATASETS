@@ -1,0 +1,11 @@
+# https://data.world/crowdflower/academy-awards-demographics/workspace/file?filename=Oscars-demographics-DFE.csv
+# This dataset displays the information of race, gender, and sexual orientation for the Academy awards for severall different Acedemy Awards between the 1920's and early 2000's. 
+# We hope to utilize this informatin and focus on the race catetogry for different awards and contrast the percentage of awrds given to each race.
+
+# https://www.kaggle.com/muonneutrino/us-census-demographic-data
+# This dataset displays the race of each person in the United States from the census in 2015.
+# We hope to analyze the percentages of each race population from the census and compare it to the percentages of each race from the Academy awards population.
+
+#https://www.kaggle.com/census/current-population-survey#cps_2016-08.csv
+# We hope to see the perecentage of each race in the USA during the year 2016. 
+# This will give us a base line when we compare the earlier dataset and contrast if the percentage of each race class is similar to the percentage of awards given to each race.
